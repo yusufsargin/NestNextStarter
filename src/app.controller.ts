@@ -9,11 +9,7 @@ export class AppController {
   @Render('Index')
   getHello() {
     return {
-      title: 'Rıfat Sargın',
+      title: 'Hello',
     };
   }
-
-  @Get('/about')
-  @Render('About')
-  getAbout() {}
 }
